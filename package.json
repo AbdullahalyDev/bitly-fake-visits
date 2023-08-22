@@ -1,0 +1,30 @@
+{
+  "name": "bitly-fake-visits",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node ./dist/build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "commander": "^11.0.0",
+    "pkg": "^5.8.1",
+    "shelljs": "^0.8.5",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.3",
+    "@types/shelljs": "^0.8.12"
+  },
+  "pkg": {
+    "scripts": "./dist/helpers/**/*.ts",
+    "outputPath": "./build"
+  }
+}
